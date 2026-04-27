@@ -10,8 +10,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 # =======================
 # TELEGRAM CONFIG
 # =======================
-BOT_TOKEN = "7809821610:AAG4ZIjk2oNFLVKZ0nOZegzBz-tdkLkaiwg"
-CHAT_ID = 6442054015
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+CHAT_ID = 12345678     #YOUR TELEGRAM BOT CHAT ID
 
 # =======================
 # GLOBAL FLAGS
@@ -22,7 +22,8 @@ LAST_ALERT_TIME = 0
 # =======================
 # VIDEO CONFIG
 # =======================
-VIDEO_PATH = "/home/pi/person_detection/human_video2.mp4"
+# VIDEO_PATH = "/home/pi/person_detection/human_video2.mp4"
+VIDEO_PATH = "YOUR_RTSP_URL_OF_CCTV"
 FRAME_SKIP = 30
 CONFIDENCE = 0.5
 ALERT_INTERVAL = 30
